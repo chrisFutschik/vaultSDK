@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29025.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Configurator", "Configurator\Configurator.vbproj", "{94785E57-EFED-4F4E-84F4-2031D73F451A}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Extension", "Extension\Extension.vbproj", "{772A6AAB-B401-45F4-8B8D-52CD741A318E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94785E57-EFED-4F4E-84F4-2031D73F451A}.Debug|x64.ActiveCfg = Debug|x64
+		{94785E57-EFED-4F4E-84F4-2031D73F451A}.Debug|x64.Build.0 = Debug|x64
+		{94785E57-EFED-4F4E-84F4-2031D73F451A}.Release|x64.ActiveCfg = Release|x64
+		{94785E57-EFED-4F4E-84F4-2031D73F451A}.Release|x64.Build.0 = Release|x64
+		{772A6AAB-B401-45F4-8B8D-52CD741A318E}.Debug|x64.ActiveCfg = Debug|x64
+		{772A6AAB-B401-45F4-8B8D-52CD741A318E}.Debug|x64.Build.0 = Debug|x64
+		{772A6AAB-B401-45F4-8B8D-52CD741A318E}.Release|x64.ActiveCfg = Release|x64
+		{772A6AAB-B401-45F4-8B8D-52CD741A318E}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F743454B-AA48-404A-BA21-41EA0924417C}
+	EndGlobalSection
+EndGlobal

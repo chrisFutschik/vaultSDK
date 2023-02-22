@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VaultAPIWrapper", "VaultAPIWrapper\VaultAPIWrapper.vcxproj", "{1215E52F-1FD1-4C3B-A950-F0606AA4BE5A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VaultList", "VaultList\VaultList.vcxproj", "{1786D3C5-379B-4BCD-8863-F6CE8D488CAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1215E52F-1FD1-4C3B-A950-F0606AA4BE5A}.Debug|x64.ActiveCfg = Debug|x64
+		{1215E52F-1FD1-4C3B-A950-F0606AA4BE5A}.Debug|x64.Build.0 = Debug|x64
+		{1215E52F-1FD1-4C3B-A950-F0606AA4BE5A}.Release|x64.ActiveCfg = Release|x64
+		{1215E52F-1FD1-4C3B-A950-F0606AA4BE5A}.Release|x64.Build.0 = Release|x64
+		{1786D3C5-379B-4BCD-8863-F6CE8D488CAF}.Debug|x64.ActiveCfg = Debug|x64
+		{1786D3C5-379B-4BCD-8863-F6CE8D488CAF}.Debug|x64.Build.0 = Debug|x64
+		{1786D3C5-379B-4BCD-8863-F6CE8D488CAF}.Release|x64.ActiveCfg = Release|x64
+		{1786D3C5-379B-4BCD-8863-F6CE8D488CAF}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E05AE17-1737-483A-9CB5-6DCEB9C7FBA2}
+	EndGlobalSection
+EndGlobal

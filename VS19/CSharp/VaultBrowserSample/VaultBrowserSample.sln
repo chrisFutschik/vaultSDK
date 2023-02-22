@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29025.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VaultBrowserSample", "VaultBrowserSample\VaultBrowserSample.csproj", "{15635C05-BE90-4F08-8B87-21F85B406A00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15635C05-BE90-4F08-8B87-21F85B406A00}.Debug|x64.ActiveCfg = Debug|x64
+		{15635C05-BE90-4F08-8B87-21F85B406A00}.Debug|x64.Build.0 = Debug|x64
+		{15635C05-BE90-4F08-8B87-21F85B406A00}.Release|x64.ActiveCfg = Release|x64
+		{15635C05-BE90-4F08-8B87-21F85B406A00}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D15D579E-C249-4F42-8308-0DE8AC7D58B5}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,30 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>API Onboarding - Event Handler</Name>
+    <Description>Creates a custom event handling extension containing all available webservice event definitions. Uncomment unused ones.</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>API-Onboarding-EventHandlerExtension</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+    <PreviewImage>__PreviewImage.ico</PreviewImage>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="API-Onboarding-EventHandlerExtension.csproj" File="API-Onboarding-EventHandlerExtension.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="false" TargetFileName="Key.snk">Key.snk</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="$projectname$.vcet.config">$projectname$.vcet.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="EventHandlers.cs">EventHandlers.cs</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Settings.cs">Settings.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Settings.xml">Settings.xml</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Util.cs">Util.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
